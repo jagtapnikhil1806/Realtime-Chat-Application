@@ -15,7 +15,7 @@ app.post("/authenticate", async (req, res) => {
 try{
 const r = await axios.put('https://api.chatengine.io/users/',{
     username:username,secret:username,first_name:username},{
-        headers:{"private-key":"6730a064-5e8d-45b6-8a59-9c9724e26338"}})
+        headers:{"private-key":"c636656f-2e26-42cd-ad54-78745f93aa8f"}})
 return res.status(r.status).json(r.data)
 }
 
